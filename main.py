@@ -41,7 +41,7 @@ def main():
 	dp = updater.dispatcher
 	
 	#list of allowed group id
-	allowed_groups = [-266317584,-359879783,-1001257687380]
+	allowed_groups = ["Insert your Telegram Group ID"]
 	filters = Filters.chat(allowed_groups)
 	dp.add_handler(CommandHandler('rak', rak, filters))
 	dp.add_handler(CommandHandler('subnet', subnet, filters))
